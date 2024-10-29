@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import LandingPage from '@/views/LandingPage.vue'
-import ProjectsPage from '@/views/ProjectsPage.vue'
 import AcervoPage from '@/components/AcervoPage.vue'
 import DownloadsPage from '@/views/DownloadsPage.vue'
 import LattesPage from '@/views/LattesPage.vue'
@@ -13,11 +12,6 @@ const router = createRouter({
       path: '/',
       name: 'LandingPage',
       component: LandingPage
-    },
-    {
-      path:'/Projetos',
-      name: 'Projetos',
-      component: ProjectsPage
     },
     {
       path:'/Acervo',
