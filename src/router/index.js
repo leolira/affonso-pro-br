@@ -15,7 +15,7 @@ const router = createRouter({
     },
     {
       path:'/Acervo',
-      name: 'Acervo',
+      name: 'Acervo', 
       component: AcervoPage
     },
     {

@@ -1,5 +1,5 @@
 <script setup>
-import banner from '@/assets/img/bannewtxt.png'
+import banner from '@/assets/img/banner.png'
 </script>
 
 <template>
