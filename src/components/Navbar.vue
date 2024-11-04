@@ -17,7 +17,13 @@ import logo from "@/assets/img/icon.png"
       <RouterLink to="/" class="text-white font-bold hover:bg-amber-400 hover:text-white rounded px-3">Início</RouterLink>
       <RouterLink to="/acervo" class="text-white font-bold hover:bg-amber-400 hover:text-white rounded px-3">Acervo</RouterLink>
       <RouterLink to="/downloads" class="text-white font-bold hover:bg-amber-400 hover:text-white rounded px-3">Downloads</RouterLink>
-      <RouterLink to="/lattes" class="text-white font-bold hover:bg-amber-400 hover:text-white rounded px-3">Lattes</RouterLink>
+      <a 
+            href="http://lattes.cnpq.br/6348129777947369"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-white font-bold hover:bg-amber-400 hover:text-white rounded px-3"
+          >Lattes</a>
+
       <RouterLink to="/contato" class="text-white font-bold hover:bg-amber-400 hover:text-white rounded px-3">Contato</RouterLink>
     </div>
   </div>

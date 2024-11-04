@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import LandingPage from '@/views/LandingPage.vue'
 import AcervoPage from '@/components/AcervoPage.vue'
 import DownloadsPage from '@/views/DownloadsPage.vue'
-import LattesPage from '@/views/LattesPage.vue'
 import ContactPage from '@/views/ContactPage.vue'
 
 const router = createRouter({
@@ -22,11 +21,6 @@ const router = createRouter({
       path:'/Downloads',
       name: 'Downloads',
       component: DownloadsPage
-    },
-    {
-      path:'/Lattes',
-      name: 'Lattes',
-      component: LattesPage
     },
     {
       path:'/Contato',

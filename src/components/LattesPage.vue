@@ -1,3 +1,0 @@
-<template>
-    Lattes aqui!
-</template>
