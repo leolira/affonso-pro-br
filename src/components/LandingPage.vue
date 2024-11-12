@@ -3,5 +3,7 @@ import banner from '@/assets/img/banner.png'
 </script>
 
 <template>
-    <img class="w-fit max-h-screen" :src="banner" alt="banner" />
+    <div class="mx-auto max-w-screen-2xl">
+        <img class="w-fit max-h-screen aspect-ratio mx-auto flex justify-center" :src="banner" alt="banner" />
+    </div>
 </template>

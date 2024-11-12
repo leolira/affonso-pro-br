@@ -1,14 +1,13 @@
 <template>
-  <div class="relative w-full overflow-hidden">
+  <div class="relative w-full overflow-hidden mx-auto max-w-screen-2xl">
     <div class="flex transition-transform duration-300" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
-      <div v-for="(item, index) in items" :key="index" class="w-full flex-shrink-0 flex">
-        <div class="w-1/2 p-8 bg-blue-950 text-white flex items-center">
+      <div v-for="(item, index) in items" :key="index" class="w-full flex-shrink-0 flex flex-col sm:flex-row"> <div class="w-full sm:w-1/2 p-8 bg-blue-950 text-white flex items-center">
           <div>
             <h2 class="text-2xl font-bold">{{ item.title }}</h2>
             <p class="mt-4 text-justify">{{ item.text }}</p>
           </div>
         </div>
-        <div class="w-1/2">
+        <div class="w-full sm:w-1/2">
           <img :src="item.image" alt="Image" class="object-contain w-full h-full" />
         </div>
       </div>
