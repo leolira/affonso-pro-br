@@ -5,7 +5,11 @@ import FooterComp from './components/FooterComp.vue';
 
 </script>
 <template>
+
+<div class="bg-blue-950">
   <Navbar />
   <RouterView />
   <FooterComp />
+</div>
+
 </template>

@@ -3,8 +3,8 @@
     <div class="flex transition-transform duration-300" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
       <div v-for="(item, index) in items" :key="index" class="w-full flex-shrink-0 flex flex-col sm:flex-row"> <div class="w-full sm:w-1/2 p-8 bg-blue-950 text-white flex items-center">
           <div>
-            <h2 class="text-2xl font-bold">{{ item.title }}</h2>
-            <p class="mt-4 text-justify">{{ item.text }}</p>
+            <h2 class="text-2xl font-bold ml-10 mr-10">{{ item.title }}</h2>
+            <p class="mt-4 text-justify ml-10 mr-10">{{ item.text }}</p>
           </div>
         </div>
         <div class="w-full sm:w-1/2">
